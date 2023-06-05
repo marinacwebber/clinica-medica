@@ -26,12 +26,11 @@ nav {
     display: flex;
     flex-direction: row;
     height: 80px;
-    width:100%;
+    width: 100%;
     background-color: var(--cor-terciaria);
     align-items: center;
     justify-content: center;
-    padding: 0 50px 0 100px;
-    flex-wrap: wrap;
+    padding: 0 50px 0 100px;    
 }
 
 nav .logo {
@@ -84,7 +83,7 @@ nav .menu-btn i {
 }
 
 .apresentacao__conteudo {
-    width: 50%;    
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -93,12 +92,12 @@ nav .menu-btn i {
 }
 
 .titulo-destaque {
-    color: var(--cor-terciaria);    
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
 }
 
 .apresentacao__conteudo__paragrafo {
@@ -148,7 +147,7 @@ nav .menu-btn i {
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 26px;
     font-weight: 600;
     line-height: 40px;
@@ -156,7 +155,8 @@ nav .menu-btn i {
 
 
 
-@media (max-width: 1400px) {    
+@media (max-width: 1400px) {
+    
     nav .menu-btn i {
         display: block;
     }
@@ -199,5 +199,14 @@ nav .menu-btn i {
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .logo {
+        font-size: 10rem;
+    }
+
+    .rodape {
+        padding: 4px;
+        position: relative;
     }
 }
