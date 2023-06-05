@@ -195,10 +195,16 @@ nav .menu-btn i {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 24px;
     }
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentacao__imagem {
+        width: 75%;
+        border-radius: 10px;
     }
 
     .logo {
@@ -208,5 +214,9 @@ nav .menu-btn i {
     .rodape {
         padding: 4px;
         position: relative;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 70%;
     }
 }
